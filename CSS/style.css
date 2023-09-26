@@ -17,3 +17,81 @@ h1 {
     display: inline-block;
     vertical-align: middle;
 }
+.container {
+    width: 1000px;
+    margin: 40px auto;
+    background-color: #ffffff;
+}
+.add {
+    padding: 15px 50px;
+    border-bottom: 3px solid  #f6f8f9 ;
+}
+#add-task {
+    background-color: #14aaf5;
+    color: white;
+}
+#add-section {
+    color: #dce0e3;
+}
+.tasks {
+    padding: 40px;
+}
+h3 {
+    color: #646870;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+.new-task, .today, .upcoming {
+    margin-bottom: 20px;
+}
+.item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+.item.check {
+    border-color: #3fcbb3;
+    color: #3fcbb3;
+}
+.item.cross {
+    border-color: #ff4343;
+    color: #ff4343;
+}
+.category {
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px;
+    background-color: yellow;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+}
+#blue {
+    background-color: #09a9ed;
+}
+#purple {
+    background-color: #ab5de6 ;  
+}
+#green {
+    background-color: #3ecbb2;
+}
+#orange {
+    background-color: #ff9b00;
+}
+#pink {
+    background-color: #ec4a9d;
+}
+#lightgreen {
+    background-color: #a3d116;
+}
+li > .special {
+    line-height: 40px;
+}
