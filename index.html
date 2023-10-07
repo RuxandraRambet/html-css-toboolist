@@ -9,14 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- /Font Roboto -->
-    
-    <link rel="stylesheet" href="CSS/style.css">
+
     <title>Toboolist</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- /Stylesheet -->
 </head>
 <body>
     <!-- Intestazione pagina -->
     <header>
-        <img src="img/logocopia.png" alt="immagine logo" id="logo">
+        <img src="img/Logo.png" alt="immagine logo" id="logo">
         <h1>Toboolist</h1>
     </header>
     <!-- /Intestazione pagina -->
@@ -24,81 +27,70 @@
     <main>
         <div class="container">
             <!-- Sezione bottoni -->
-            <div class="add">
-                <button id="add-task">Add Task</button>
-                <button id="add-section">Add Section</button>
+            <div class="button-container">
+                <button class="btn" id="add-task">Add Task</button>
+                <button class="btn">Add Section</button>
             </div>
             <!-- /Sezione bottoni -->
 
-            <!-- Prima sezione - compiti -->
-            <div class="tasks">
-                <section class="new-task">
-                    <h3><span>&#9662;</span> New Task</h3>
+            <!-- Prima sezione - nuovo task -->
+            <div class="task-container">
+                <section class="task">
+                    <h2>New Task</h2>
                     <ul>
-                        <li>
-                            <span class="item check">&check;</span>
+                        <li class="completed">
                             <span>Quarterly Nwesletter </span>
-                            <span class="category blue">Editorial</span>
+                            <span class="tag editorial">Editorial</span>
                         </li>
                     </ul>
                 </section>
-                <!-- /Prima sezione - compiti -->
-               
-                <!-- Seconda sezione - oggi -->
-                <section class="today">
-                    <h3><span>&#9662;</span> Today</h3>
+                <!-- /Prima sezione- nuovo task -->
+                <!-- Seconda sezione - today -->
+                <section class="task">
+                    <h2>Today</h2>
                     <ul>
-                        <li>
-                            <span class="item check">&check;</span>
+                        <li class="completed">
                             <span>Recruiting blog post</span>
-                            <span class="category blue">Editorial</span>
+                            <span class="tag editorial">Editorial</span>
                         </li>
-                        <li>
-                            <span class="item check">&check;</span>
+                        <li class="completed">
                             <span>Mobile app launch</span>
-                            <span class="category purple">Q1 Goals</span>
+                            <span class="tag goals">Q1 Goals</span>
                         </li>
-                        <li>
-                            <span class="item cross">&cross;</span>
+                        <li class="uncomplete">
                             <span>Interview John H.</span>
-                            <span class="category green">Recruiting</span>
+                            <span class="tag recruiting">Recruiting</span>
                         </li>
-                        <li>
-                            <span class="item check">&check;</span>
+                        <li class="completed">
                             <span>Summit update to mobile storefronts</span>
-                            <span class="category orange">Mobile</span>
+                            <span class="tag mobile">Mobile</span>
                         </li>
                     </ul>
                 </section>
-                <!-- /Seconda sezione - oggi -->
-                
-                <!-- Terza sezione - da fare -->
-                <section class="upcoming">
-                    <h3><span>&#9662;</span> Upcoming</h3>
+                <!-- /Seconda sezione- today -->
+                <!-- Terza sezione- upcoming -->
+                <section class="task">
+                    <h2></span> Upcoming</h2>
                     <ul>
-                        <li>
-                            <span class="item cross">&cross;</span>
-                            <span class="special">Schedule meeting with Alex</span>
+                        <li class="uncomplete">
+                            <span>Schedule meeting with Alex</span>
                         </li>
-                        <li>
-                            <span class="item check">&check;</span>
+                        <li class="completed">
                             <span>Homepage refresh</span>
-                            <span class="category pink">Website</span>
+                            <span class="tag website">Website</span>
                         </li>
-                        <li>
-                            <span class="item check">&check;</span>
+                        <li class="completed">
                             <span>Onboard new Sales team memebers</span>
-                            <span class="category lightgreen">Sales</span>
+                            <span class="tag sales">Sales</span>
                         </li>
-                        <li>
-                            <span class="item check">&check;</span>
+                        <li class="completed">
                             <span>Review editorial calendar</span>
-                            <span class="category blue">Editorial</span>
+                            <span class="tag editorial">Editorial</span>
                         </li>
                     </ul>
                 </section>
-                <!-- /Terza sezione - da fare -->
             </div>
+             <!-- /Terza sezione - upcoming -->
         </div>
     </main>
 
